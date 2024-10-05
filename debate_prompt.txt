@@ -1,0 +1,8 @@
+Based on the transcript of the debate, please return a json document, which is a list of the questions and answers that happened on the debate. The format is:
+
+{
+    question: The text of the question
+    answer: the answer for the question
+    candidate: who said the answer
+    evaluation: Number between 1 and 5, 1 being the answer had nothing to do with the question, 5 the answer addresses the question and most of the answer is only the question. 
+}
